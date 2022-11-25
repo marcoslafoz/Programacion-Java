@@ -28,10 +28,6 @@ public class Ejercicio12 {
             // Definimos piramide
             String piramide = "";
 
-            // Definimos espacio (caracter que aparecera a los lados de la piramide para
-            // darle forma)
-            String espacio = "-";
-
             // Switch con todas las posiciones
             switch (posicion.toLowerCase()) {
                 case "arriba":
