@@ -5,36 +5,62 @@ import java.util.Scanner;
 public class Ejercicio12 {
     public static void main(String[] args) {
         try (Scanner teclado = new Scanner(System.in)) {
-            
-            //Pedimos jugada a j1
+
+            // Pedimos caracter
+            System.out.print("Elige un caracter, letra, numero o simbolo> "); // (int)caracter
+            // Asignamos una variable
+            String caracterBruto = teclado.next();
             System.out.println();
-            System.out.print("Turno de Jugador 1> ");
-            //Recogemos jugada j1
-            String j1 = teclado.next();
+            // Cogemos el primer caracter y le asignamos una variable
+            char caracter = caracterBruto.charAt(0);
 
-            //Pedimos jugada a j2
-            System.out.print("Turno de Jugador 2> ");
-            //Recogemos jugada j2
-            String j2 = teclado.next();
-
+            // Pedimos la posicion y le asignamos una variable
+            System.out.println("Elige la direccion a la que apunta el vertice de la piramide");
+            System.out.print("[Arriba | Abajo | Derecha | Izquierda]> ");
+            String posicion = teclado.next();
             System.out.println();
 
-            //operamos 
+            // Pedimos la altura y le asignamos una variable
+            System.out.print("Elige la altura de la piramide>");
+            int altura = teclado.nextInt();
+            System.out.println();
 
-            if (j1.equals("piedra") & j2.equals("papel")){System.out.println("Ha ganado el Jugador 2");}
-            if (j1.equals("piedra") & j2.equals("tijera")){System.out.println("Ha ganado el Jugador 1");}
+            // Definimos piramide
+            String piramide = "";
 
-            if (j1.equals("papel") & j2.equals("piedra")){System.out.println("Ha ganado el Jugador 1");}
-            if (j1.equals("papel") & j2.equals("tijera")){System.out.println("Ha ganado el Jugador 2");}
+            // Definimos espacio (caracter que aparecera a los lados de la piramide para
+            // darle forma)
+            String espacio = "-";
 
-            if (j1.equals("tijera") & j2.equals("piedra")){System.out.println("Ha ganado el Jugador 2");}
-            if (j1.equals("tijera") & j2.equals("papel")){System.out.println("Ha ganado el jugador 1");}
+            // Switch con todas las posiciones
+            switch (posicion.toLowerCase()) {
+                case "arriba":
+                    // Bucle para piramide mirando hacia arriba
+                    for (int i = 1; i <= altura; i++) {
 
-            //Mensaje de error
+                        // Definimos una variable para la acumulacion de caracteres para la piramide
+                        piramide = piramide + caracter;
 
-            if ( j1.equals(j2)){
-                System.out.println("Error");
+                        // Imprimimos la piramide
+                        System.out.println(piramide);
+
+                    }
+
+                    break;
+                case "abajo":   
+
+                    break;
+                case "izquierda":
+
+                    break;
+                case "derecha":
+
+                    break;
+
+                default:
+                    break;
             }
+
         }
     }
 }
