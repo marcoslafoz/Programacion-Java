@@ -5,18 +5,18 @@
  */
 
 // Clase Fecha
-public class Fecha {
+public class Ejemplo2 {
 
     // Definimos las variables
     int dia, mes, anno;
 
     //////////////////////////
 
-    public Fecha() {
+    public void Fecha() {
         System.out.println("Creando fecha sin estado");
     }
 
-    public Fecha(int dia, int mes, int anno) {
+    public void Fecha(int dia, int mes, int anno) {
         this.dia = dia;
         this.mes = mes;
         this.anno = anno;
