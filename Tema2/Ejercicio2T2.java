@@ -1,20 +1,18 @@
 import java.util.Scanner;
 
-public class ProblemaDigito {
+public class Ejercicio2T2 {
     public static void main(String[] args) {
         try (Scanner teclado = new Scanner(System.in)) {
             char letra;
             String cad;
-            int contador = 0;
-            boolean terminar = false;
 
-            while (!terminar) {
-
+            while (true) {
+               
                 System.out.println("Ingrese una letra: ");
-                // letra = (String) teclado.toString();
-                cad = teclado.nextLine();
-                letra = cad.charAt(0);
-
+            // letra = (String) teclado.toString();
+            cad = teclado.nextLine();
+            letra = cad.charAt(0);
+               
                 switch (letra) {
                     case '*':
                         System.out.println('1');
@@ -61,15 +59,9 @@ public class ProblemaDigito {
                     case 'z':
                         System.out.println('9');
                         break;
-                    case '0':
-                        terminar = true;
-                        System.out.println("Fin del programa, el caracter es 0");
-                        System.out.println("El n" + "\u00fa" + "mero de errores es " + contador);
-                        break;
 
                     default:
                         System.out.println("Opcion no valida");
-                        contador = contador + 1;
                 }
             }
         }

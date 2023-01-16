@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 //Clase EjercicioLunes7_10
-public class EjercicioLunes7_10 {
+public class Ejercicio10T4 {
     public static void main(String[] args) {
         try (Scanner teclado = new Scanner(System.in)) {
 

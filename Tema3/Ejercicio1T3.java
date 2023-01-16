@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ej1Tema3 {
+public class Ejercicio1T3 {
     /**
      * @param args
      */

@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Ejercicio1T5 {
@@ -16,7 +15,7 @@ public class Ejercicio1T5 {
 		}
 	}
 
-	public static boolean esprimo(int numero) {
+	private static boolean esprimo(int numero) {
 
 		boolean primo;
 		int contador = 2;

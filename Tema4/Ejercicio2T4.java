@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 //Clase EjercicioLunes7_1
-public class EjercicioLunes7_2 {
+public class Ejercicio2T4 {
     public static void main(String[] args) {
         try (Scanner teclado = new Scanner(System.in)) {
             // Pedimos una frase

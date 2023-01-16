@@ -9,7 +9,7 @@ Marcos.
 
 import java.util.Scanner;
 
-public class SeleccionarMes {
+public class Ejercicio4T2 {
     public static void main(String[] args) {
         try (Scanner teclado = new Scanner(System.in)) {
             int nMes;
