@@ -14,7 +14,7 @@ Marcos.
 
 import java.util.Scanner;
 
-public class FaltasDeAsistencia {
+public class Ejercicio1T2 {
     public static void main(String[] args) {
         try (Scanner teclado = new Scanner(System.in)) {
             int hTotales, hFaltas;
