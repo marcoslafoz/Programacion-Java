@@ -1,3 +1,5 @@
+package Tema5;
+
 import java.util.Scanner;
 
 public class Ejercicio1T5 {
