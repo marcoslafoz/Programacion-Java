@@ -1,0 +1,39 @@
+1) Cada componente en un vector debe tener el mismo tipo y el número de componentes se fija en el momento de la creación. (¿Verdadero o falso?)    
+    // Verdadero
+
+2) Los componentes de un vector deben ser de tipo primitivo. (¿Verdadero o falso?) 
+    // Falso
+
+3) Declara y crea instancias de vectores de acuerdo con las siguientes descripciones:
+    a) 24 elementos en punto flotante
+        // Float[] var = new Float[24];
+    b) 500 elementos enteros
+        // int[] var = new int[500];
+    c) 50 elementos en punto flotante de doble precisión
+        //Double[] var = new Double[50];
+    d) 10 elementos caracter
+        // Int[] var = {0,1,2,3,4,5,6,7,8,9};
+
+4) Escribe un fragmento de código para realizar las siguientes tareas:
+    a) Declara una constante denominada CLASS_SIZE que represente el número de estudiantes en una clase.
+        // int[] CLASS_SIZE = new int[30];
+    b) Declara un vector quizAvg cuyos componentes contendrán promedios de puntuación de prueba de punto flotante.
+        // Double[] quizAvg;
+    c) Crea una instancia del vector con el tamaño CLASS_SIZE.
+        // int[][] instancia = new int[CLASS_SIZE.lenght][];
+
+5) Escribe un fragmento de código para realizar las siguientes tareas:
+    a) Declara un vector de enteros llamado birdSightings.
+        // int [] birdSightings;
+    b) Crea una instancia con 20 componentes.
+        // int[] birdSightings = new int[20];
+
+6) Dadas las declaraciones:
+    int final TAMAÑO = 100;
+    int[] cuenta = new int[TAMAÑO];
+
+    escribir fragmentos de código para realizar las siguientes tareas:
+    
+    a) Establece cuenta en ceros.
+    b) Lee valores para los elementos del vector.
+    c) Suma los valores.
