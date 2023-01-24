@@ -62,6 +62,9 @@
 
     Cuando el indice es 4 el programa da error porque el vector no tiene la capacidad de hasta el 4 , la tiene de hasta el 3 (0,1,2,3)
 
+12) ¿Cuáles son las dos diferencias básicas entre una clase y un vector?
+    La diferencia es que en una clase puedes trabajar con distintos tipos de dato mientras que en un vector tienes que trabajar siempre con el mismo tipo de dato
+
 13) Para cada una de las siguientes descripciones de datos, determina qué tipo general de estructura de 
 datos (serie de valores primitivos, clase, serie de objetos de clase, clase) que contiene objetos de clase es adecuada.
     a) Una entrada de nómina con un nombre, dirección y tasa de pago
