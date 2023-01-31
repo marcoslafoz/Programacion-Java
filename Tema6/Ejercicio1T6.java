@@ -6,25 +6,14 @@ public class Ejercicio1T6 {
 
     public static void main(String[] args) {
         try (Scanner teclado = new Scanner(System.in)) {
-
-            /*
-             * 1) Se generan 20 números aleatorios de tipo entero y se almacenan en un
-             * vector. Hay que calcular y mostrar la media y, además, mostrar cuántos
-             * números hay:
-             * -Superiores a la media
-             * -Inferiores a la media
-             * -Iguales a la media
-             */
-
-            System.out.println("Generando 20 numeros aleatorios del 0 - 999");
-
+            System.out.println("Generando 20 numeros aleatorios del 0 - 999"); 
+            int nVector = 20;
+            int nGenerado = generador(nVector);
+            System.out.println("Suma de numeros generados: " + nGenerado );
         }
     }
 
-    private int generador;
-
-    public void generador(int x1) {
-        int r1;
+    public static int generador (int x1) {
         int acumulador = 0;
         int ramdomN = (int) (Math.random() * 1000 + 1);
 
@@ -35,32 +24,8 @@ public class Ejercicio1T6 {
             acumulador = acumulador + vector[i];
         }
 
-        r1 = acumulador;
+        int total = acumulador;
 
-        this.generador = r1;
+        return total;
     }
-
-    public int generador() {
-        return this.generador;
-    }
-
-    private int media;
-
-    public void media(int x2) {
-        int r2 = x2 / 20;
-
-        this.media = r2;
-    }
-
-    public int media() {
-        return this.media;
-    }
-
-    /*
-     * class Prueba{
-     * Papa a=new Papa();
-     * int edad = a.getEdad;
-     * String nombre = a.getNombre;
-     * }
-     */
 }
