@@ -1,4 +1,5 @@
 package Tema6;
+
 import java.util.Random;
 
 /*

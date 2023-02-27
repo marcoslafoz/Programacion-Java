@@ -18,7 +18,7 @@ public class Ejercicio1T6 {
         int countAbove = 0;
         int countBelow = 0;
         int countEqual = 0;
-        
+
         // Generamos 20 números aleatorios y los almacenamos en el vector
         System.out.println("Números aleatorios generados:");
         for (int i = 0; i < 20; i++) {
@@ -26,11 +26,11 @@ public class Ejercicio1T6 {
             System.out.println("Valor " + (i + 1) + ": " + numbers[i]);
             sum += numbers[i];
         }
-        
+
         // Calculamos la media
         double average = (double) sum / 20;
         System.out.println("Media: " + average);
-        
+
         // Recuento de números por encima, por debajo y igual a la media
         for (int i = 0; i < 20; i++) {
             if (numbers[i] > average) {
@@ -41,7 +41,7 @@ public class Ejercicio1T6 {
                 countEqual++;
             }
         }
-        
+
         System.out.println("Números por encima de la media: " + countAbove);
         System.out.println("Números por debajo de la media: " + countBelow);
         System.out.println("Números iguales a la media: " + countEqual);
