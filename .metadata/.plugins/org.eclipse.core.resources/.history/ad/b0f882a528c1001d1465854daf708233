@@ -1,7 +1,0 @@
-package Ejercicio6;
-
-public class Operaciones {
-	public static (int numerador, int denominador) {
-		return 
-	}
-}

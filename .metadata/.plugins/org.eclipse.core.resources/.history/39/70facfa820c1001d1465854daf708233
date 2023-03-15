@@ -1,9 +1,0 @@
-package Ejercicio8;
-
-public class Operaciones {
-	public  void mostrarDatos() {
-		for(int i = 0 ; i < 10 ; i++) {
-			System.out.println(mesa[i].get);
-		}
-	}
-}

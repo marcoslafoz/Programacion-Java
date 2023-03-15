@@ -1,9 +1,0 @@
-package Ejercicio6;
-
-public class Operaciones {
-	public void invertirFraccion (int numerador, int denominador) {
-		int temp = numerador;
-		this.numerador = denominador;
-		
-	}
-}
