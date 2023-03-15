@@ -1,0 +1,15 @@
+package Ejercicio4;
+
+public class Operaciones {
+	public void IngresoDinero(String codigo) {
+		
+	}
+	
+	public void RetiroDinero(String codigo) {
+			
+	}
+	
+	public void cosultarSaldo(String codigo) {
+		
+	}
+}

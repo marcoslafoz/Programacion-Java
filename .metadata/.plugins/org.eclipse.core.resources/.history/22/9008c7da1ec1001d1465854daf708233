@@ -1,0 +1,6 @@
+package Ejercicio4;
+
+public class Mesa {
+	private int numeroMesa;
+	private int numeroClientes
+}

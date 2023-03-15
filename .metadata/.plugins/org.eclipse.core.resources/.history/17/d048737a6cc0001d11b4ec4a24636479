@@ -1,0 +1,13 @@
+package Ejercicio6;
+
+public class Hora {
+	private int hora;
+	private int minutos;
+	private int segundos;
+	
+	//Getter y setters hora
+	public void setInteger(int hora) {
+		this.hora = hora;
+	}
+	
+}

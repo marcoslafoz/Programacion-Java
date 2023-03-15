@@ -1,0 +1,10 @@
+package Ejercicio7;
+
+public class Modificador {
+	public String modNombre(String nombre) {
+		
+		String nuevoNombre = nombre;
+		
+		return nuevoNombre;
+	}
+}	

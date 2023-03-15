@@ -1,0 +1,7 @@
+package Ejercicio6;
+
+public class Operaciones {
+	public static void(int numerador, int denominador) {
+		return numerador;
+	}
+}

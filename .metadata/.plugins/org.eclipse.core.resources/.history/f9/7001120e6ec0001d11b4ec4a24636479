@@ -1,0 +1,64 @@
+package Ejercicio6;
+
+import java.util.Scanner;
+
+/*Desarrollar un programa en Java que utilice una clase que se llame Hora con
+miembros de tipo int para hora, minutos y segundos. Deberá tener un constructor para
+inicializar la hora a 0 o a una hora determinada (hora, minutos, segundos).Se deberá
+poder sumar y restar horas, así como imprimir y leer una hora. El formato de
+impresión y lectura será hh:mm:ss, todo en modo 24 horas.*/
+
+public class Main {
+	public static void main(String[] args) {
+		try(Scanner teclado = new Scanner(System.in)){
+			
+			Boolean bucle = true;
+			
+			while(bucle == true) {
+				
+				//Selector
+				System.out.println("Introduca la opcion");
+				System.out.println("1 | Fijar hora");
+				System.out.println("2 | Modificar hora");
+				System.out.println("3 | Sumar horas");
+				System.out.println("4 | Restar horas");
+				System.out.println("5 | Mostrar hora");
+				System.out.println("6 | Salir");
+				
+				//Le asignamos una variable a la seleccion anterior de tipo char
+				String selecString = teclado.next();
+				char selec = selecString.charAt(0);
+				
+				//Switch con Selector
+				switch(selec) {
+				case '1': 
+					//code
+					; 
+					break;
+				case '2': 
+					//code
+					; 
+					break;
+				case '3': 
+					//code
+					; 
+					break;
+				case '4': 
+					//code
+					; 
+					break;
+				case '5': 
+					//code
+					; 
+					break;
+				case '6':
+					System.out.println("Saliendo...");
+					bucle = false;
+					; 
+					break;
+				}
+			}
+			
+		}
+	}
+}

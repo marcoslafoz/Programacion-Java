@@ -1,0 +1,20 @@
+package Ejercicio4;
+
+public class Operaciones {
+	public void IngresoDinero() {
+		
+	}
+	
+	public void RetiroDinero() {
+			
+	}
+	
+	public Boolean comprobarSaldo(float saldo) {
+		
+		Boolean balanceSaldo = false;
+		
+		//code
+		
+		return balanceSaldo;
+	}
+}

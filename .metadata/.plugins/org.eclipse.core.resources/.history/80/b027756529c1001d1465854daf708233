@@ -1,0 +1,12 @@
+package Ejercicio6;
+
+public class Operaciones {
+	public invertirFraccion (int numerador, int denominador) {
+		int temp = numerador;
+		numerador = denominador;
+		
+		return numerador;
+		return temp;
+		
+	}
+}

@@ -1,0 +1,12 @@
+package Ejercicio1;
+
+/*Define tres vectores de 20 números enteros cada uno, con nombres numero, cuadrado y
+cubo. Carga el vector numero con valores aleatorios entre 0 y 100. En el vector cuadrado se
+deben almacenar los cuadrados de los valores que hay en el vector numero. En el vector
+cubo se deben almacenar los cubos de los valores que hay en numero. A continuación,
+muestra el contenido de los tres vectores dispuesto en tres columnas, separados por
+tabuladores.*/
+
+public class Main {
+
+}

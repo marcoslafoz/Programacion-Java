@@ -1,0 +1,27 @@
+package Ejercicio6;
+
+import java.util.Scanner;
+
+/*Crea la clase Fraccion. Los atributos serán numerador y denominador. Y algunos de los
+métodos pueden ser invertir, simplificar, suma, multiplica, divide, etc.*/
+
+public class Main {
+	public static void main(String[] args) {
+		try(Scanner teclado = new Scanner(System.in)){
+			
+			System.out.print("Numerador>");
+			int numerador = teclado.nextInt();
+			System.out.print("Denominador> ");
+			int denominador = teclado.nextInt();
+			
+			Fraccion fraccion1 = new Fraccion();
+			fraccion1.setDenominador(denominador);
+			fraccion1.setNumerador(numerador);
+			
+			//Mostrar fraccion
+			System.out.println("Fraccion: " + fraccion1.getNumerador()+"/"+fraccion1.getDenominador());
+			//Fraccion invertida
+			System.out.println("Fraccion invertida: " + fraccion1.getNumerador()+"/"+fraccion1.getDenominador());
+		}
+	}
+}

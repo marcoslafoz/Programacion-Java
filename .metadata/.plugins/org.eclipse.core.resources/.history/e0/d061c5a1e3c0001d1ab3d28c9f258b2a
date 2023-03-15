@@ -1,0 +1,25 @@
+package Ejercicio7;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args){
+		try(Scanner teclado = new Scanner(System.in)){
+		
+			//Creamos el objeto empleado1
+			Empleado empleado = new Empleado();
+			
+			//Pedimos nombre y codigo y le asignamos una variable
+			System.out.print("Nombre> ");
+			String nombreEmpleado = teclado.next();
+			
+			System.out.print("Codigo> ");
+			int codigoEmpleado = teclado.nextInt(); 
+			
+			//Le asignamos el codigo al setter
+			empleado1.se
+			
+			
+		}
+	}
+}

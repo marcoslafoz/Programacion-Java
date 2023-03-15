@@ -1,0 +1,14 @@
+package Ejercicio2;
+
+import java.util.Random;
+
+public class Main {
+	
+	//Creamos el objeto random
+	Random rand = new Random[101];
+	
+	//Creamos los vectores
+	int[] vector1 = new int[20];
+	int[] vector2 = new int[20];
+	int[] vector3 = new int[20];
+}

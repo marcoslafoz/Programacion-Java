@@ -1,0 +1,24 @@
+package Ejercicio8;
+
+import java.util.Scanner;
+
+public class Menu {
+	public static void main(String[] args) {
+		try(Scanner teclado = new Scanner(System.in)){
+			
+			//Plato 1
+			Plato plato1 = new Plato();
+			
+			System.out.println("Primer plato");
+			
+			System.out.print("Nombre plato: ");
+			String nombrePlato = teclado.next();
+			plato1.setNombre(nombrePlato);
+			
+			System.out.print("Nombre categoria: ");
+			String nombreCategoria = teclado.next();
+			plato1.setCategoria(nombreCategoria);
+			
+		}
+	}
+}

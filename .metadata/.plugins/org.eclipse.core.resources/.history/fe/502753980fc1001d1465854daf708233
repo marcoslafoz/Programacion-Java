@@ -1,0 +1,17 @@
+package Ejercicio3;
+
+/*3) Escribe un programa que rellene un vector de 100 elementos con números enteros
+aleatorios comprendidos entre 100 y 500 (ambos incluidos). A continuación, el programa
+mostrará el mínimo y el máximo de los cien.*/
+
+import java.util.Random;
+
+public class Main {
+	public static void main(String[] args) {
+		//Creamos el vector
+		int[] vector = new int[100];
+		//Creamos el objeto random
+		Random rand = new Random();
+		
+	}
+}

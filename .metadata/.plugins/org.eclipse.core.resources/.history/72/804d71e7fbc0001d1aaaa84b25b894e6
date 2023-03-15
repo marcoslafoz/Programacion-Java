@@ -1,0 +1,8 @@
+package Ejercicio5;
+
+public class Main {
+    public static void main(String[] args) {
+        Coleccion coleccion = new Coleccion();
+
+        Disco disco1 = new Disco("Nevermind", "Nirvana", 1991);
+        Disco disco2 = new Disco("The Dark Side of the Moon", "Pink");
