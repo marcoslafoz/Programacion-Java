@@ -1,10 +1,11 @@
 package Examen;
 
-public class Electrodomestico {
+public abstract class Electrodomestico {
 	
 	private int peso;
 	private int color;
 	private int diasTranscurridos;
+	private boolean pasarRevision;
 	
 	//Peso
 	
@@ -26,7 +27,7 @@ public class Electrodomestico {
 		return color;
 	}
 	
-	//Cafeteria
+	//Dias transcurridos
 	
 	public void setDiasTranscurridos(int diasTranscurridos) {
 		this.diasTranscurridos = diasTranscurridos;
@@ -34,6 +35,16 @@ public class Electrodomestico {
 	
 	public int getDiasTranscurridos() {
 		return diasTranscurridos;
+	}
+	
+	//Mantenimiento
+	
+	public void setPasarRevision (boolean pasarRevision) {
+		this.pasarRevision = pasarRevision;
+	}
+	
+	public boolean getPasarRevision() {
+		return pasarRevision;
 	}
 	
 	

@@ -12,7 +12,7 @@ public class Main {
 			Electrodomestico[] horno = new Horno[1000000];
 			Electrodomestico[] frigorifico = new Frigorifico[1000000];
 
-			//Creamos el objeto para el numero aleatorio
+			//Creamos el objeto para el numero aleatorio 
 			Random rand1 = new Random();
 			int nAleatorioElectro , nAleatorioPesoCafetera, nAleatorioPesoHorno, nAleatorioPesoFrigorifico, nAleatorioColor, colorAleatiorio, nAleatorioPintar;
 			
@@ -56,6 +56,7 @@ public class Main {
             		//Asignamos propiedades al objeto cafetera
             		cafetera[i].setPeso(nAleatorioPesoCafetera);
             		cafetera[i].setDiasTranscurridos(30);
+            		if( cafetera[i].getDiasTranscurridos() > 30) {cafetera[i].setPasarRevision(true);}else {cafetera[i].setPasarRevision(false);}
             		//Decidimos si pintar o no segun el numero aleatorio de nAleatorioPintar
             		if(nAleatorioPintar == 0) {
             			cafetera[i].pintar(colorAleatiorio);
@@ -67,6 +68,7 @@ public class Main {
             		System.out.println("Peso: " + cafetera[i].getPeso() +"kg");
             		System.out.println("DiasTranscurridos: " + cafetera[i].getDiasTranscurridos());
             		System.out.println("Color: " + cafetera[i].getColor());
+            		System.out.println("Pasar revision: " + cafetera[i].getPasarRevision());
             		
             		; break;
             	
@@ -76,6 +78,7 @@ public class Main {
             		//Asignamos propiedades al objeto horno
             		horno[i].setPeso(nAleatorioPesoHorno);
             		horno[i].setDiasTranscurridos(30);
+            		if( horno[i].getDiasTranscurridos() > 180) {horno[i].setPasarRevision(true);}else {horno[i].setPasarRevision(false);}
             		//Decidimos si pintar o no segun el numero aleatorio de nAleatorioPintar
             		if(nAleatorioPintar == 0) {
             			horno[i].pintar(colorAleatiorio);
@@ -87,6 +90,7 @@ public class Main {
             		System.out.println("Peso: " + horno[i].getPeso() +"kg");
             		System.out.println("DiasTranscurridos: " + horno[i].getDiasTranscurridos());
             		System.out.println("Color: " + horno[i].getColor());
+            		System.out.println("Pasar revision: " + horno[i].getPasarRevision());
             		
             		; break;
             	
@@ -96,6 +100,7 @@ public class Main {
             		//Asignamos propiedades al objeto frigorifico
             		frigorifico[i].setPeso(nAleatorioPesoFrigorifico);
             		frigorifico[i].setDiasTranscurridos(30);
+            		if( frigorifico[i].getDiasTranscurridos() > 360) {frigorifico[i].setPasarRevision(true);}else {frigorifico[i].setPasarRevision(false);}
             		//Decidimos si pintar o no segun el numero aleatorio de nAleatorioPintar
             		if(nAleatorioPintar == 0) {
             			frigorifico[i].pintar(colorAleatiorio);
@@ -107,6 +112,7 @@ public class Main {
             		System.out.println("Peso: " + frigorifico[i].getPeso() +"kg");
             		System.out.println("DiasTranscurridos: " + frigorifico[i].getDiasTranscurridos());
             		System.out.println("Color: " + frigorifico[i].getColor());
+            		System.out.println("Pasar revision: " + frigorifico[i].getPasarRevision());
             		
             		; break;
             		
@@ -114,6 +120,7 @@ public class Main {
             	default: 
             			break;
             	}
+            	System.out.println("----------------------------------");
             }
 			
 
