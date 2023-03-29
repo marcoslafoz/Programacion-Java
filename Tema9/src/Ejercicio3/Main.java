@@ -1,4 +1,4 @@
-package Ejercicio2;
+package Ejercicio3;
 
 import java.util.Random;
 
@@ -6,12 +6,11 @@ public class Main {
     public static void main(String[] args) {
 
         /*
-         * @param tAleatorios , tVector
-         * 
+         * @param TAMANO_ALEATORIOS, TAMANO_VECTOR
          * @author Marcos
          */
 
-        final int TAMANO_ALEATORIOS = 100, TAMANO_VECTOR = 20;
+        final int TAMANO_ALEATORIOS = 20, TAMANO_VECTOR = 6;
 
         // Instanciamos el vector
         int[] vector1 = new int[TAMANO_VECTOR];
@@ -26,7 +25,7 @@ public class Main {
         Algoritmo.imprimirVector(vector1);
 
         // Ordenar el vector
-        Algoritmo.ordenarVector(vector1);
+        AlgoritmoOrdenacion.ordenarVector(vector1);
 
         System.out.println("\nVector ordenado:");
         Algoritmo.imprimirVector(vector1);
