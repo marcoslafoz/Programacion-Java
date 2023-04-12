@@ -30,7 +30,11 @@ public class Main {
 
         System.out.println("\nVector ordenado:");
         Algoritmo.imprimirVector(vector1);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> workspace
     }
 
 }

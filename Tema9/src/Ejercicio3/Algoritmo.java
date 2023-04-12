@@ -12,10 +12,17 @@ public class Algoritmo {
     }
 
     // Imprimimos el vector
+    // Imprimimos el vector
     public static void imprimirVector(int[] vector) {
+<<<<<<< HEAD
         for (int i = 0; i < vector.length; i++) {
             System.out.print("|" + vector[i] );
         }
         System.out.println("|");
+=======
+        for (int numero : vector) {
+            System.out.print(numero + "|");
+        }
+>>>>>>> workspace
     }
 }
