@@ -11,7 +11,7 @@ public class Main {
          * @author Marcos
          */
 
-        final int TAMANO_ALEATORIOS = 100, TAMANO_VECTOR = 20;
+        final int TAMANO_ALEATORIOS = 10, TAMANO_VECTOR = 10;
 
         // Instanciamos el vector
         int[] vector1 = new int[TAMANO_VECTOR];
