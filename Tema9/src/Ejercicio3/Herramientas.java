@@ -2,7 +2,7 @@ package Ejercicio3;
 
 import java.util.Random;
 
-public class Algoritmo {
+public class Herramientas {
 
     // Llenamos el vector con numeros aleatorios
     public static void llenarVector(int[] vector, Random rand, int TAMANO_ALEATORIOS) {
@@ -12,17 +12,11 @@ public class Algoritmo {
     }
 
     // Imprimimos el vector
-    // Imprimimos el vector
     public static void imprimirVector(int[] vector) {
 
         for (int i = 0; i < vector.length; i++) {
             System.out.print("|" + vector[i] );
         }
         System.out.println("|");
-
-        for (int numero : vector) {
-            System.out.print(numero + "|");
-        }
-
     }
 }

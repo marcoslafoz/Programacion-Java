@@ -20,16 +20,16 @@ public class Main {
         Random rand1 = new Random();
 
         // Llenar el vector con números aleatorios
-        Algoritmo.llenarVector(vector1, rand1, TAMANO_ALEATORIOS);
+        Herramientas.llenarVector(vector1, rand1, TAMANO_ALEATORIOS);
 
         System.out.println("Vector desordenado:");
-        Algoritmo.imprimirVector(vector1);
+        Herramientas.imprimirVector(vector1);
 
         // Ordenar el vector
         AlgoritmoOrdenacion.ordenarVector(vector1);
 
         System.out.println("\nVector ordenado:");
-        Algoritmo.imprimirVector(vector1);
+        Herramientas.imprimirVector(vector1);
 
     }
 
