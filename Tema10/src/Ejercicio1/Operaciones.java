@@ -9,9 +9,7 @@ public class Operaciones {
 		System.out.println("2 | pop | Desapilar de la cima");
 		System.out.println("3 | size | Conocer el número de elementos apilados");
 		System.out.println("4 | print | Imprimir la pila");
-		System.out.println();
-		System.out.print("Opcion> ");
-		System.out.println();
+		System.out.println("Opcion> ");
 	}
 	
 
