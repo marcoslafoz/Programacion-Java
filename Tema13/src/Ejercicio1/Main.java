@@ -10,9 +10,6 @@ public class Main {
         try {
             
         	BufferedWriter writer = new BufferedWriter(new FileWriter("primos.txt"));
-            
-        	writer.write("Lista de numeros primos del 1 al 500\n");
-        	writer.newLine();
         	
             for (int numero = 1; numero <= 500; numero++) {
                 if (Primos.esPrimo(numero)) {
