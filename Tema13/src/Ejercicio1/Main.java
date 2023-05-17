@@ -9,7 +9,7 @@ public class Main {
         
         try {
             
-        	BufferedWriter writer = new BufferedWriter(new FileWriter("primos.txt"));
+        	BufferedWriter writer = new BufferedWriter(new FileWriter("src/primos.txt"));
         	
             for (int numero = 1; numero <= 500; numero++) {
                 if (Primos.esPrimo(numero)) {
